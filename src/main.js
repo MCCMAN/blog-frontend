@@ -10,7 +10,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.mixin({
     data(){
       return {
-        GRIDSOME_API_URL:process.env.GRIDSOME_API_URL
+        GRIDSOME_API_URL: process.env.GRIDSOME_API_URL
       }
     }
   })
